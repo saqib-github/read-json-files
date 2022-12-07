@@ -1,0 +1,22 @@
+{
+  "name": "fs-basic-hackerrank",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "npm install",
+    "pretest": "npm install",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bluebird": "^3.7.2",
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "mock-fs": "^5.2.0",
+    "uuid": "^9.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+You have a write a simple nodejs function to read json files from the file system. There is a main function
+in index.js that will have all the logic. It takes path as an argument.
+
+Following conditions must be met while writing the code:
+
+1. Your program should read the file and return a JSON from the file system
+1. It should read the JSON file and its contents.
+2. It should throw the 'File Does Not Exist' error when JSON file is missing.
+3. It should throw the 'JSON Invalid' error when json content is invalid.
+4. It should throw the 'Path is a directory' error when the file path is a directory
+
+You can verify all the test cases by running below command
+
+'npm test' 
